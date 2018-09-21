@@ -1,0 +1,15 @@
+---
+name: userformstodataobject
+---
+SilverStripe\UserForms\Model\Submission\SubmittedForm:
+  extensions:
+    - 'Internetrix\UserFormsToDataObject\SubmittedFormExtension'
+SilverStripe\UserForms\Model\UserDefinedForm:
+  extensions:
+    - 'Internetrix\UserFormsToDataObject\UserDefinedFormExtension'
+Internetrix\UserFormsToDataObject\UF2DOConfig:
+  data_mapping_disallow_db_fields:
+    - 'ClassName'
+    - 'Created'
+    - 'LastEdited'
+    - 'ID'

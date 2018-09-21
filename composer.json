@@ -1,0 +1,42 @@
+{
+  "name": "internetrix/silverstripe-userforms-to-dataobject",
+  "description": "Allow submitted userform fields to be saved into dataobject",
+  "type": "silverstripe-vendormodule",
+  "homepage": "https://gitlab.internetrix.net/silverstripe-modules/userforms-to-dataobject",
+  "keywords": [
+    "silverstripe",
+    "module",
+    "userforms",
+    "dataobject",
+    "mapping"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Jason Zhang",
+      "email": "jason.zhang@internetrix.com.au"
+    },{
+      "name": "Guy Watson",
+      "email": "guy.watson@internetrix.com.au"
+    }
+  ],
+  "support": {
+    "issues": "https://gitlab.internetrix.net/silverstripe-modules/userforms-to-dataobjectissues"
+  },
+  "require": {
+    "silverstripe/vendor-plugin": "^1.0",
+    "silverstripe/framework": "4.*",
+    "silverstripe/multivaluefield" : "5.0.*",
+    "silverstripe/userforms": "5.1.*"
+  },
+  "extra": {
+    "installer-name": "userforms-to-dataobject"
+  },
+  "autoload": {
+    "psr-4": {
+      "Internetrix\\UserFormsToDataObject\\": "src/"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
